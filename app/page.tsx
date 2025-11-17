@@ -1,3 +1,9 @@
+import React from "react";
+
+async function handleLogin(e: React.FormEvent<HTMLFormElement>) {
+  e.preventDefault();
+}
+
 export default function Home() {
 return (
 <main>
